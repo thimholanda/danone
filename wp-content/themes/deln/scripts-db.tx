@@ -1,0 +1,7 @@
+UPDATE wp_options SET option_value = replace(option_value, 'http://www.oldurl', 'http://www.newurl') WHERE option_name = 'home' OR option_name = 'siteurl';
+
+UPDATE deln_posts SET guid = replace(guid, 'http://192.168.0.12:8082/delnwordpress/','http://deln.idealista.net.br/');
+
+UPDATE deln_posts SET post_content = replace(post_content, 'http://192.168.0.12:8082/delnwordpress/','http://deln.idealista.net.br/');
+
+UPDATE deln_postmeta SET meta_value = replace(meta_value,'http://192.168.0.12:8082/delnwordpress/','http://deln.idealista.net.br/');

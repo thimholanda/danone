@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <name> -- <role> -- <twitter>
+    <Thiago Marchetti Holanda> -- <Lead Team> -- <@thimholanda>
+
+
+# THANKS
+
+    <God and my family>
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, PHP, MySQL
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
